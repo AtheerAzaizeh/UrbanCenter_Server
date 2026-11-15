@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-console.log(process.env.MONGO_URL); // This should print your MongoDB URI
 const connectDB = async () => {
 
   try {
